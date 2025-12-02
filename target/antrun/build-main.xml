@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <mkdir dir="/prac/maven/Amazon/Amazon/postclean" />
+    <echo file="/prac/maven/Amazon/Amazon/postclean/postclean.log" message="Post-clean completed successfully for module: Amazon" />
+    <echo message="Post-clean steps executed successfully." />
+  </target>
+</project>
