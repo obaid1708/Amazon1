@@ -13,7 +13,7 @@ stages {
   sh 'mvn test'
   }
   stage('build'){
-  sh 'mvn install'
+  sh 'mvn clean install'
 }
 }
 }
